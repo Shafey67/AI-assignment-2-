@@ -1,0 +1,30 @@
+[    46s] seed 0: GA 0.1418 | RS -0.1004
+[    94s] seed 1: GA 0.1258 | RS -0.1038
+[   139s] seed 2: GA 0.1428 | RS -0.0983
+[   185s] seed 3: GA 0.1405 | RS -0.1033
+[   232s] seed 4: GA 0.1491 | RS -0.0962
+[   280s] seed 5: GA 0.1473 | RS -0.1109
+[   326s] seed 6: GA 0.1288 | RS -0.1088
+[   373s] seed 7: GA 0.1822 | RS -0.1057
+[   374s] comparison + uniqueness done {'ga_chamfer': (1.4360443550942426, 0.3792941674389936), 'rs_chamfer': (1.152875869728243, 0.3354314379347912), 'ga_jaccard': 0.6656971622166034, 'rs_jaccard': 0.5647973940514018, 'ga_cv': 0.11118291216238535, 'rs_cv': 0.045397214786031155, 'ga_overlap': 0.16016829740780467, 'rs_overlap': 0.5045149052130974, 'ga_hi_cov': 0.7242924528301886, 'rs_hi_cov': 0.21014150943396226, 'ga_hi_det': 0.6971814668340378, 'rs_hi_det': 0.1729717365975768, 'ga_mean_range_used': 0.7201883609371079, 'rs_mean_range_used': 0.9648743049684322}
+[   383s]   pop=20: 0.0699 ± 0.0209
+[   405s]   pop=50: 0.1010 ± 0.0249
+[   449s]   pop=100: 0.0977 ± 0.0153
+[   540s]   pop=200: 0.1175 ± 0.0132
+[   564s]   mut=0.01: 0.0985 ± 0.0199
+[   589s]   mut=0.03: 0.1383 ± 0.0277
+[   616s]   mut=0.08: 0.1234 ± 0.0238
+[   648s]   mut=0.15: 0.0502 ± 0.0046
+[   683s]   mut=0.3: -0.0315 ± 0.0228
+[   710s]   k=2: 0.0628 ± 0.0097
+[   736s]   k=3: 0.1234 ± 0.0238
+[   765s]   k=5: 0.1404 ± 0.0224
+[   794s]   k=10: 0.1618 ± 0.0238
+[   815s]   ablation full (adaptive + immigrants): 0.1047 ± 0.0245, final diversity 1.092
+[   834s]   ablation no adaptive mutation: 0.1241 ± 0.0231, final diversity 0.941
+[   854s]   ablation no immigrants: 0.1144 ± 0.0265, final diversity 1.006
+[   872s]   ablation neither: 0.1264 ± 0.0233, final diversity 0.757
+[   914s]   weights coverage-first: {'coverage': 0.6574495071484731, 'energy': 0.7457654730944302, 'time': 0.897124768861994, 'hazard': 0.19495638316912212}
+[   952s]   weights balanced (default): {'coverage': 0.5296150679883024, 'energy': 0.5575756794608002, 'time': 0.7449896105297603, 'hazard': 0.11286715458491825}
+[   986s]   weights safety / energy-saver: {'coverage': 0.03453023760143185, 'energy': 0.1819832441773532, 'time': 0.26429911903870557, 'hazard': 0.0003725738944436942}
+[   986s] ALL DONE
