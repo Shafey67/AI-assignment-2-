@@ -14,7 +14,8 @@ git clone <your-repo-url> && cd uav-ga-strategy-engine
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-python main.py                       # one full run (~25 s)  -> results/figures/01..04
+python main.py                       # one full run (~25 s): graphs open in windows + saved to results/figures/
+python main.py --no-show             # save PNGs only (no windows)
 python main.py --pop 60 --gens 100   # quick run
 python run_experiments.py            # full study for the report (~25 min, 1 core)
 python run_experiments.py --quick    # reduced study (~2 min)
